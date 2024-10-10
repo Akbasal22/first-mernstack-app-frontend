@@ -1,0 +1,40 @@
+.add-game-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    border: 1px solid rgb(0, 0, 0, 0.3);
+    padding: 4rem 8rem 4rem 8rem;
+    border-radius: 16px;
+    gap: 2rem;
+    background-color: #181a21;
+    color: #1999ff;
+}
+
+input {
+    padding-left: 1rem;
+    width: 100%;
+    background-color: #393c44;
+    border-radius: 2px;
+    border: 1px solid #32353c;
+    padding: 1rem 2rem 1rem 1rem;
+    outline: none;
+    color: #afafaf;
+}
+
+label {
+    color:  #afafaf;
+}
+  
+
+
+.submit-btn {
+    background: linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 2px;
+    font-size: 16px;
+    width: 270px;
+    cursor: pointer;
+}

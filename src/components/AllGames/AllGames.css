@@ -1,0 +1,14 @@
+.games-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    gap: 4rem;
+}
+
+.games-container-title {
+    text-align: center;
+    font-size: 49px;
+    color: #afafaf;
+    font-weight: bolder;
+}
